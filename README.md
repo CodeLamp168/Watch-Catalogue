@@ -92,13 +92,12 @@ The project follows a clear separation of concerns:
    - Impact: Multiple items may appear selected
    - Status: Fix in progress
 
-## Future Enhancements
+## Possible Future Enhancements (Probably never lol)
 
-- Implement user authentication
-- Add watchlist functionality
+
 - Integrate additional media sources
 - Enhance search filters
-- Add social sharing features
+
 
 ---
 
