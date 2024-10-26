@@ -4,59 +4,112 @@
 
 ## Overview
 
-The **Watch Catalogue Webpage** is a simple user-friendly interface designed for browsing and discovering both movies and TV shows. It utilizes the TMDB (The Movie Database) API to fetch relevant data and display it to users. The webpage offers a responsive design, a variety of genres for selection, and a search functionality for users to find specific movies or TV shows.
+The **Watch Catalogue Webpage** is an intuitive, user-friendly interface for discovering and browsing movies and TV shows. Built with modern web technologies and powered by The Movie Database (TMDB) API, this application offers a responsive design with advanced search capabilities, genre filtering, and a seamless browsing experience.
 
+## Key Features
 
+- **Comprehensive Media Browsing**: Browse both movies and TV shows in a unified interface
+- **Advanced Search**: Find specific movies or TV shows with real-time search functionality
+- **Genre Filtering**: Filter content by genres for more focused browsing
+- **Responsive Design**: Optimized viewing experience across all device sizes
+- **Dynamic Content Loading**: Real-time content updates without page refreshes
 
-## Technologies Utilized
+## Technologies Used
 
-- **HTML**: The backbone for structuring the webpage content.
-- **CSS**: Used for styling and ensuring a visually appealing user interface.
-- **JavaScript**: Enables dynamic content loading, interaction, and API calls.
-- **TMDB API**: Integrated to fetch information about movies and TV shows.
-- **ChatGPT**: Provided useful code analysis and template production
-## API Overview
+- **HTML5**: Semantic markup for structured content
+- **CSS3**: Modern styling with responsive design principles
+- **JavaScript**: Dynamic content handling and API integration
+- **TMDB API**: Rich media data source
+- **ChatGPT + Claude**: Assisted with code analysis and template generation
 
-The app interacts with the TMDB API to retrieve information about movies and TV shows. The API requests are made with an API key, and various endpoints are utilized to get popular movies, TV shows, and search results.
+## Technical Architecture
 
-## Functions
+### API Integration
 
-### Movie and TV Show Display
+The application integrates with TMDB API using the following key endpoints:
 
-- **`getMovies(url)`**: Fetches and displays a list of popular movies.
-- **`getTVshows(url)`**: Fetches and displays a list of popular TV shows.
-- **`showMovies(movies)`**: Populates the webpage with movie cards.
-- **`showTVshows(tvShows)`**: Populates the webpage with TV show cards.
+- Popular movies and TV shows retrieval
+- Search functionality across media types
+- Genre listing and filtering
+- Media details fetching
 
-### Search Functionality
+### Core Functions
 
-- **`searchMedia(searchTerm, mediaType)`**: Searches for movies or TV shows based on the user's input.
-- **`showCombinedResults(results)`**: Displays the combined results of movie and TV show searches.
+#### Content Display
+```javascript
+getMovies(url)       // Fetches and displays popular movies
+getTVshows(url)      // Fetches and displays popular TV shows
+showMovies(movies)   // Renders movie cards
+showTVshows(tvShows) // Renders TV show cards
+```
 
-### Genre Selection
+#### Search Implementation
+```javascript
+searchMedia(searchTerm, mediaType)    // Handles media search
+showCombinedResults(results)          // Displays combined search results
+```
 
-- **`addGenreClickListener(genreList, mediaType, getMediaFunction)`**: Listens for genre clicks and updates the content accordingly.
+#### UI Components
+```javascript
+addGenreClickListener(genreList, mediaType, getMediaFunction)  // Genre filtering
+handleNavButtonClick()                                         // Responsive navigation
+```
 
-### Navigation
+## Code Organization
 
-- **`handleNavButtonClick()`**: Manages the visibility and animation of the responsive navigation bar.
+The project follows a clear separation of concerns:
 
-## Code Structure
+### HTML Structure
+- Navigation components
+- Search interface
+- Content containers
+- Media cards
+- Genre filters
 
-The code is organized into three main sections: HTML, CSS, and JavaScript.
+### CSS Architecture
+- Responsive design rules
+- Color schemes
+- Typography
+- Animation definitions
+- Component styling
 
-- **HTML**: Defines the structure of the webpage, including headers, containers, and movie cards.
-  
-- **CSS**: Provides styling for the webpage, including color schemes, fonts, and responsiveness.
+### JavaScript Modules
+- API interaction layer
+- Content rendering engine
+- Event handling
+- Search functionality
+- Navigation management
 
-- **JavaScript**: Contains functions for API interaction, content display, and user interaction.
+## Known Issues
 
+1. **Mobile Landscape Mode**
+   - Description: Content overflow issues in landscape orientation
+   - Status: Under investigation
+   - Workaround: Use portrait mode for optimal experience
 
-## Minor Bugs
+2. **Catalogue Selection Styling**
+   - Description: Visual inconsistency in catalogue item selection
+   - Impact: Multiple items may appear selected
+   - Status: Fix in progress
 
-- **Overflow Issue for Landscape Mobile**: May experience a slight overflow issue on landscape-oriented mobile devices.
-- **Catalogue CSS Styling Issue**: When selecting catalogue list items, there is a CSS styling issue where both items may appear bold, but only one remains visually marked as active.
+## Future Enhancements
+
+- Implement user authentication
+- Add watchlist functionality
+- Integrate additional media sources
+- Enhance search filters
+- Add social sharing features
 
 ---
 
+## Contributing
 
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+*Last Updated: October 2024*
