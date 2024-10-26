@@ -1,6 +1,6 @@
 # Watch Catalogue Webpage
 
-![Webpage Display](/assets/watchcataloguedisplay.png)
+![Webpage Display](public/assets/watchcataloguedisplay.png)
 
 ## Overview
 
