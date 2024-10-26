@@ -1,0 +1,28 @@
+{
+  "name": "watch-catalogue-webpage",
+  "version": "1.0.0",
+  "description": "![Webpage Display](assets/watchcataloguedisplay.png)",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLamp168/Watch-Catalogue-Webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeLamp168/Watch-Catalogue-Webpage/issues"
+  },
+  "homepage": "https://github.com/CodeLamp168/Watch-Catalogue-Webpage#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+
+  
+}
+
