@@ -93,20 +93,7 @@ The project follows a clear separation of concerns:
    - Status: Fix in progress
 
 ## Possible Future Enhancements (Probably never lol)
+   - Integrate additional media sources
+   - Enhance search filters
 
 
-- Integrate additional media sources
-- Enhance search filters
-
-
----
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
