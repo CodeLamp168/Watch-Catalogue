@@ -4,7 +4,13 @@
 
 ## Overview
 
-The **Watch Catalogue Webpage** is an intuitive, user-friendly interface for discovering and browsing movies and TV shows. Built with modern web technologies and powered by The Movie Database (TMDB) API, this application offers a responsive design with advanced search capabilities, genre filtering, and a seamless browsing experience.
+The **Watch Catalogue Webpage** is the same generic API movie catalogue project that many other beginner devs create. Understanding api usage, layout design, and general js was the main result from all of this.
+
+Why did I remake the repository? 
+- Revamped the project by moving the API key from being hardcoded in the frontend to running on a Node.js server.
+
+Was I being stupid keeping a pointless a personal api key open?
+- Yes.
 
 ## Key Features
 
