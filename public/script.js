@@ -1,6 +1,5 @@
-
-
-const API_MOVIE = config.getMovieURL();
+document.addEventListener('DOMContentLoaded', function() {
+    const API_MOVIE = config.getMovieURL();
 const API_TV = config.getTVURL();
 const IMG_PATH = config.IMG_PATH;
 const SEARCH_URL = config.getSearchURL();
@@ -276,3 +275,6 @@ navEntryBtn.addEventListener('click', handleNavButtonClick);
 navExitBtn.addEventListener('click', handleNavButtonClick);
 
 window.addEventListener('resize', setDefaultTransform);
+
+});
+
