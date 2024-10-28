@@ -9,7 +9,7 @@ The **Watch Catalogue Webpage** is the same generic API movie catalogue project 
 Why did I remake the repository? 
 - Revamped the project by moving the API key from being hardcoded in the frontend to running on a Node.js server.
 
-Was I being stupid keeping a pointless a personal api key open?
+Was I being stupid keeping a personal api key open?
 - Yes.
 
 ## Key Features
