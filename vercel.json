@@ -6,6 +6,7 @@
     ],
     "routes": [
       { "src": "/config.js", "dest": "server.js" },
+      { "src": "^/(.*)\\.(css|js|svg|png|jpg|jpeg|gif)$", "dest": "/public/$1.$2" },
       { "src": "/(.*)", "dest": "server.js" }
     ]
   }
